@@ -1,0 +1,112 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  padding: 0 10px;
+}
+
+.nav-title {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title h1 {
+  font-size: 27px;
+}
+
+.nav-title .input-field i {
+  position: absolute;
+  padding: 16px 10px;
+  color: #017189;
+}
+.nav-title .search {
+  height: 50px;
+  width: 230px;
+  background-color: rgb(248, 252, 252);
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(236, 236, 236);
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.nav-info {
+  flex: 1;
+  display: flex;
+}
+
+.nav-info .nav-stat {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+
+.nav-info .nav-stat img {
+  height: 24px;
+}
+
+.nav-user {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-user .user-img img {
+  height: 30px;
+}
+
+.nav-user .user-detail h6 {
+  color: rgb(34, 197, 94);
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .nav-title {
+    flex-direction: column;
+  }
+
+  .nav-title h1 {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+  .nav-title .input-field {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .nav-info {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-user {
+    margin-top: 30px;
+  }
+
+  .nav-user .user-img img {
+    height: 50px;
+  }
+
+  .nav-user .user-detail h6 {
+    font-size: 14px;
+  }
+
+  .nav-user .user-detail p {
+    font-size: 18px;
+  }
+}

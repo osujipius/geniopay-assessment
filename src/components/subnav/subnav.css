@@ -1,0 +1,44 @@
+.sub-nav {
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.sub-nav h2 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.sub-nav button {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sub-nav button:hover {
+  background-color: #026379;
+}
+
+.sub-nav button i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .sub-nav button {
+    width: 50px;
+  }
+
+  .sub-nav button span {
+    display: none;
+  }
+
+  .sub-nav button i {
+    margin: 0;
+  }
+
+  .sub-nav h2 {
+    font-size: 18px;
+  }
+}

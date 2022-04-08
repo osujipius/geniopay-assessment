@@ -18,20 +18,20 @@ export default function Sidebar() {
       <div className="side-nav" id="sidebar">
         <img className="logo" src={logo} alt="logo" />
         <Widget />
-        <ul className="list-unstyled text-white">
-          <li className="">
+        <ul>
+          <li>
             <i className="fas fa-th-large"></i>
             Dashboard
           </li>
-          <li className="">
+          <li>
             <i className="fas fa-wallet"></i>
             Wallet
           </li>
-          <li className="">
+          <li>
             <i className="fas fa-credit-card"></i>
             Card
           </li>
-          <li className="">
+          <li>
             <NavLink
               to="/fx"
               style={({ isActive }) => ({
@@ -46,7 +46,7 @@ export default function Sidebar() {
               FX Center
             </NavLink>
           </li>
-          <li className="b-active">
+          <li>
             <NavLink
               to="/"
               style={({ isActive }) => ({
@@ -61,7 +61,7 @@ export default function Sidebar() {
               Beneficiaries
             </NavLink>
           </li>
-          <li className="">
+          <li>
             <i className="fas fa-tag"></i>
             Perks
           </li>

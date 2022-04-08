@@ -1,0 +1,83 @@
+.card {
+  border: 2px solid rgb(233, 233, 233);
+  height: 230px;
+  width: 300px;
+  border-radius: 8px;
+  margin: 20px 5px;
+  padding: 10px 0;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.card-title {
+  width: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 15px;
+}
+
+.card-title p {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.ellipsis {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipsis i {
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+}
+
+.card-body {
+  padding-left: 30px;
+  margin-top: 25px;
+}
+
+.card-body h5 {
+  font-size: 15px;
+}
+
+.card-body .sub-body {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.card-body .sub-body p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-body .sub-body h6 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 8px 10px 0 10px;
+}
+
+.card-divide {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-bottom > div p {
+  font-size: 13px;
+  margin: 5px;
+}
+
+.card-bottom > div p i {
+  color: rgb(94, 94, 94);
+}

@@ -1,0 +1,47 @@
+.fx-nav {
+  height: 80px;
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: -10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.fx-nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fx-nav > div p {
+  font-size: 16px;
+}
+
+.fx-nav > div p i {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .fx-nav {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .fx-nav {
+    height: auto;
+    grid-template-columns: auto auto;
+  }
+
+  .fx-nav > div {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fx-nav {
+    grid-template-columns: auto;
+  }
+}

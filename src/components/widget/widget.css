@@ -30,7 +30,7 @@ hr {
   color: #2b899d;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .container {
     width: 230px;
   }

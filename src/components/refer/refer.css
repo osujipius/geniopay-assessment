@@ -34,7 +34,7 @@ button {
   font-weight: bold;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .refer {
     width: 230px;
   }

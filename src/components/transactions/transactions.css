@@ -1,27 +1,25 @@
 .transactions {
-  height: 650px;
+  height: auto;
   width: 95%;
   background-color: white;
   margin: 10px auto;
   border-radius: 10px;
   padding: 0 20px;
-  border: 2px solid red;
 }
 
 .tran-nav {
-  border: 2px solid red;
   height: 80px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
 }
 
 .tran-nav > div {
-  border: 2px solid purple;
-  flex: 1;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .tran-nav > div p {
@@ -34,14 +32,106 @@
   border-bottom: 2px solid black;
 }
 
-@media screen and (max-width: 950px) {
+.tran-subnav {
+  height: 70px;
+  display: flex;
+}
+
+.subnav-title {
+  flex: 2;
+}
+
+.subnav-title p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.subnav-search {
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.subnav-search .input-field i {
+  position: absolute;
+  padding: 16px 10px;
+  color: #017189;
+}
+.subnav-search .search {
+  height: 50px;
+  width: 230px;
+  background-color: rgb(248, 252, 252);
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(236, 236, 236);
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.sort {
+  height: 100%;
+  width: 100%;
+}
+
+.sort p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sort p span {
+  color: #017189;
+}
+
+.transaction-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 1000px) {
   .tran-nav {
     height: auto;
-    flex-wrap: wrap;
+    grid-template-columns: auto auto;
   }
 
+  .tran-subnav {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .subnav-title,
+  .sort {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .subnav-title p,
+  .sort p {
+    margin-top: 10px;
+  }
+
+  .transaction-grid {
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .transaction-grid {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .tran-nav > div {
-    width: 170px;
-    border: 2px solid yellow;
+    text-align: center;
+  }
+
+  .tran-nav > div p {
+    font-size: 14px;
   }
 }

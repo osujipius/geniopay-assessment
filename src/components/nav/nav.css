@@ -67,7 +67,7 @@
   font-size: 12px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .navbar {
     height: auto;
     flex-direction: column;
@@ -87,7 +87,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .nav-info {
     height: auto;
     flex-direction: column;

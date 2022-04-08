@@ -1,3 +1,4 @@
+import PaymentCard from "../paymentcard/PaymentCard";
 import "./transactions.css";
 
 export default function Transactions() {
@@ -16,6 +17,41 @@ export default function Transactions() {
         <div>
           <p>Mobile Money Recipients</p>
         </div>
+      </div>
+
+      <div className="tran-subnav">
+        <div className="subnav-title">
+          <p>53 Beneficiaries</p>
+        </div>
+        <div className="subnav-search">
+          <div className="input-field">
+            <i className="fas fa-search"></i>
+            <input
+              type="search"
+              name="search"
+              id="search"
+              className="search"
+              placeholder="Search"
+            />
+          </div>
+
+          <div className="sort">
+            <p>
+              Sort by: <span>All</span> <i className="fas fa-angle-down"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="transaction-grid">
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="USD" />
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="EUR" />
+        <PaymentCard currency="EUR" />
       </div>
     </div>
   );

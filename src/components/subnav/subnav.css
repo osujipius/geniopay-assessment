@@ -25,7 +25,7 @@
   margin-right: 5px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .sub-nav button {
     width: 50px;
   }

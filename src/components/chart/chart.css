@@ -1,0 +1,21 @@
+.chart {
+  border: 2px solid red;
+  height: 500px;
+  width: 95%;
+  margin: 40px auto;
+}
+
+.chart-nav {
+  border: 2px solid purple;
+  height: 60px;
+  width: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.chart-nav-item {
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

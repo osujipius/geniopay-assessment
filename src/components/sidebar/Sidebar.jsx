@@ -5,12 +5,13 @@ import { Link, NavLink } from "react-router-dom";
 import Refer from "../refer/Refer";
 
 export default function Sidebar() {
-  // open and close sidebar
-  const toggle = document.getElementById("toggle");
-  const sidebar = document.getElementById("sidebar");
-  toggle.onclick = function () {
-    toggle.classList.toggle("active");
-    sidebar.classList.toggle("active");
+  window.onload = function () {
+    const toggle = document.getElementById("toggle");
+    const sidebar = document.getElementById("sidebar");
+    toggle.onclick = function () {
+      toggle.classList.toggle("active");
+      sidebar.classList.toggle("active");
+    };
   };
 
   return (

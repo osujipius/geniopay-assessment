@@ -16,7 +16,7 @@ body {
 
 .main {
   width: 1200px;
-  height: auto;
+  height: 100vh;
   margin-left: 300px;
   background-color: rgb(252, 253, 254);
 }

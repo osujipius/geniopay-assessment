@@ -14,7 +14,7 @@ export default function Refer() {
           </p>
         </div>
       </div>
-      <button>Invite Friends</button>
+      <button style={{ cursor: "pointer" }}>Invite Friends</button>
     </div>
   );
 }

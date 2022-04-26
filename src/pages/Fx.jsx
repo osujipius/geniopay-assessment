@@ -1,4 +1,4 @@
-import Chart from "../components/chart/Chart";
+import Table from "../components/table/Table";
 import FxNav from "../components/fxnav/FxNav";
 import Nav from "../components/nav/Nav";
 import Swap from "../components/swap/Swap";
@@ -10,7 +10,7 @@ export default function Fx() {
       <Nav title="FX Center" username="Kudi LTD" image={user} />
       <FxNav />
       <Swap />
-      <Chart />
+      <Table />
     </div>
   );
 }

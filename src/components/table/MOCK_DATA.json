@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "email": "ohing0@jimdo.com",
+    "gender": "Male",
+    "img": "/jsonimages/table-flag1.svg",
+    "title": "USD US Dollar",
+    "rate": "1.605923",
+    "change": "+0.53%",
+    "chart": "/jsonimages/chart1.svg"
+  },
+  {
+    "id": 2,
+    "email": "ubiaggiotti1@reverbnation.com",
+    "gender": "Female",
+    "img": "/jsonimages/table-flag2.svg",
+    "title": "EUR Euro",
+    "rate": "1.700041",
+    "change": "-1.03%",
+    "chart": "/jsonimages/chart2.svg"
+  },
+  {
+    "id": 3,
+    "email": "vlawley2@geocities.jp",
+    "gender": "Male",
+    "img": "/jsonimages/table-flag3.svg",
+    "title": "GBP British Pound",
+    "rate": "0.554125",
+    "change": "-0.25%",
+    "chart": "/jsonimages/chart3.svg"
+  },
+  {
+    "id": 4,
+    "email": "khuggill3@mlb.com",
+    "gender": "Female",
+    "img": "/jsonimages/table-flag4.svg",
+    "title": "AUD Australian Dollar",
+    "rate": "71.11923",
+    "change": "+0.84%",
+    "chart": "/jsonimages/chart4.svg"
+  },
+  {
+    "id": 5,
+    "email": "hhebard4@is.gd",
+    "gender": "Genderfluid",
+    "img": "/jsonimages/table-flag5.svg",
+    "title": "CAD Canadian Dollar",
+    "rate": "0.114523",
+    "change": "+2.44%",
+    "chart": "/jsonimages/chart5.svg"
+  }
+]

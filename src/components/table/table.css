@@ -1,0 +1,58 @@
+.table {
+  border: 2px solid red;
+  height: auto;
+  width: 95%;
+  margin: 40px auto;
+}
+
+.table-nav {
+  border: 2px solid purple;
+  height: 60px;
+  width: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-nav-item {
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-content {
+  border: 2px solid yellow;
+  height: auto;
+  width: 100%;
+}
+
+table {
+  border: 2px solid blue;
+  width: 100%;
+}
+
+table thead th {
+  text-align: start;
+  padding-left: 20px;
+}
+
+table td {
+  padding: 15px 5px 15px 25px;
+}
+
+table td p {
+  margin-left: 9px;
+}
+
+@media screen and (max-width: 1000px) {
+  .table-nav {
+    height: auto;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .table-nav-item {
+    padding: 12px 0;
+  }
+}

@@ -1,6 +1,8 @@
 import PaymentCard from "../paymentcard/PaymentCard";
 import "./transactions.css";
 
+import sIcon from "./../../assets/search-icon.svg";
+
 export default function Transactions() {
   return (
     <div className="transactions">
@@ -25,7 +27,7 @@ export default function Transactions() {
         </div>
         <div className="subnav-search">
           <div className="input-field">
-            <i className="fas fa-search"></i>
+            <img src={sIcon} alt="" />
             <input
               type="search"
               name="search"

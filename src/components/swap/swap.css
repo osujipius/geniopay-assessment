@@ -58,6 +58,11 @@
   font-size: 15px;
   border: none;
   margin: 10px;
+  cursor: pointer;
+}
+
+.convert button:hover {
+  background: #016379;
 }
 
 @media screen and (max-width: 1000px) {

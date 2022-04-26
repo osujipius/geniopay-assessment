@@ -43,14 +43,14 @@ export default function Swap() {
         </div>
       </div>
       <div className="convert">
-        fees:{" "}
+        fees:
         <span style={{ fontWeight: "bold", fontSize: "18px" }}>$0.00</span>
         <button>
           <img
             style={{ height: "20px", marginBottom: "-5px" }}
             src={arrow}
             alt=""
-          />{" "}
+          />
           Convert & Send
         </button>
       </div>

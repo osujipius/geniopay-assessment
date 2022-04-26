@@ -3,6 +3,7 @@ import "./nav.css";
 import tree from "./../../assets/tree.svg";
 import bell from "./../../assets/bell.svg";
 import user from "./../../assets/person.svg";
+import sIcon from "./../../assets/search-icon.svg";
 
 export default function Nav(props) {
   return (
@@ -11,7 +12,7 @@ export default function Nav(props) {
         <div className="nav-title">
           <h1>{props.title}</h1>
           <div className="input-field">
-            <i className="fas fa-search"></i>
+            <img src={sIcon} alt="" />
             <input
               type="search"
               name="search"

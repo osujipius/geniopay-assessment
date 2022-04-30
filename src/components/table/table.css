@@ -1,12 +1,10 @@
 .table {
-  border: 2px solid red;
   height: auto;
   width: 95%;
   margin: 40px auto;
 }
 
 .table-nav {
-  border: 2px solid purple;
   height: 60px;
   width: 450px;
   display: flex;
@@ -21,19 +19,22 @@
 }
 
 .table-content {
-  border: 2px solid yellow;
   height: auto;
   width: 100%;
+  background-color: white;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 20px 0;
 }
 
 table {
-  border: 2px solid blue;
   width: 100%;
 }
 
 table thead th {
   text-align: start;
-  padding-left: 20px;
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 table td {
@@ -54,5 +55,43 @@ table td p {
 
   .table-nav-item {
     padding: 12px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  table thead {
+    display: none;
+  }
+
+  table,
+  table tbody,
+  table tr,
+  table td {
+    width: 100%;
+    display: block;
+  }
+
+  table tr {
+    border: 1px solid rgb(236, 236, 236);
+  }
+
+  table td {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50%;
+    padding-right: 10px;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
   }
 }

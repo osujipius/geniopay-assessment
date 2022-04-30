@@ -1,8 +1,6 @@
 [
   {
     "id": 1,
-    "email": "ohing0@jimdo.com",
-    "gender": "Male",
     "img": "/jsonimages/table-flag1.svg",
     "title": "USD US Dollar",
     "rate": "1.605923",
@@ -11,8 +9,6 @@
   },
   {
     "id": 2,
-    "email": "ubiaggiotti1@reverbnation.com",
-    "gender": "Female",
     "img": "/jsonimages/table-flag2.svg",
     "title": "EUR Euro",
     "rate": "1.700041",
@@ -21,8 +17,6 @@
   },
   {
     "id": 3,
-    "email": "vlawley2@geocities.jp",
-    "gender": "Male",
     "img": "/jsonimages/table-flag3.svg",
     "title": "GBP British Pound",
     "rate": "0.554125",
@@ -31,8 +25,6 @@
   },
   {
     "id": 4,
-    "email": "khuggill3@mlb.com",
-    "gender": "Female",
     "img": "/jsonimages/table-flag4.svg",
     "title": "AUD Australian Dollar",
     "rate": "71.11923",
@@ -41,8 +33,6 @@
   },
   {
     "id": 5,
-    "email": "hhebard4@is.gd",
-    "gender": "Genderfluid",
     "img": "/jsonimages/table-flag5.svg",
     "title": "CAD Canadian Dollar",
     "rate": "0.114523",
